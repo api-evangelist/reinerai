@@ -1,8 +1,25 @@
 aid: reinerai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reinerai.png
 name: Reiner.ai
-description: 'Reiner.ai is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Reiner.ai (operated by AI Mapping GmbH of Cologne, Germany) is a construction-
+  and planning-industry AI platform for architects, engineers, and planners. It combines
+  leading LLMs with domain-specific "Reiner Knowledge" and "Reiner Logic" layers to
+  deliver Reiner Chat, task-specific KI-Agenten (AI agents) for site protocols, explanatory
+  reports and project applications, company-knowledge integration, and a library of
+  50+ prebuilt construction prompts. The product is delivered as a hosted web application
+  (app.reiner.ai); as of this enrichment pass there is no public developer API, SDKs,
+  or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/reinerai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,40 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: AI Mapping GmbH
+x-registration: Amtsgericht Köln HRB 122035
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Ai Enterprise Software
+- Artificial Intelligence
+- AI Agents
+- Construction
+- AEC
+- Enterprise Software
+- Germany
 apis: []
+common:
+- type: Website
+  url: https://www.reiner.ai/
+- type: Portal
+  url: https://app.reiner.ai/
+- type: Login
+  url: https://app.reiner.ai/
+- type: Support
+  url: https://www.reiner.ai/contact
+- type: PrivacyPolicy
+  url: https://www.reiner.ai/legal/privacy
+- type: Imprint
+  url: https://www.reiner.ai/legal/imprint
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
