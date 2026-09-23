@@ -1,0 +1,34 @@
+# Front Door AI Index — reinerai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: reinerai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.reiner.ai
+  final_host: www.reiner.ai
+  ownership: own
+  owner: reinerai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 19.96
+  words: 1052
+  tiers:
+    agentic: 1
+    core: 15
+    model: 5
+  ambiguous: 2
+  top_terms:
+    AI: 14
+    Anthropic: 1
+    ChatGPT: 1
+    Claude: 1
+    Gemini: 1
+    LLMs: 1
+    OpenAI: 1
+    agent: 1
+    chatbot: 1
+    intelligence: 1
